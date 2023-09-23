@@ -1,0 +1,13 @@
+import turtle
+wn = turtle.Screen()
+wn.bgcolor("lime")
+bassel = turtle.Turtle()
+bassel.color("blue")
+bassel.shape("turtle")
+distance = 5
+bassel.up()
+for _ in range(30):
+  bassel.stamp()
+  bassel.forward(distance)
+  bassel.right(25)
+  distance = distance + 2
