@@ -6,7 +6,7 @@ bassel.color("blue")
 bassel.shape("turtle")
 distance = 5
 bassel.up()
-for _ in range(30):
+for _ in range(50):
   bassel.stamp()
   bassel.forward(distance)
   bassel.right(25)
